@@ -2,11 +2,12 @@ body{
     background-color: rgb(238, 238, 200);
 }
 
-.navar{
+.navegacion {
     display: flex;
+    flex-direction: row;
 
 }
-.logoArriba{
+.logorriba{
     width: 300px;
 }
 .menuPrincipal{
@@ -14,16 +15,15 @@ body{
     margin-left: 300px;
 }
 .menuli{
-    margin-left: 10px;
+    margin-left: 21px;
     display: flex;
     align-items: center;
     border-radius: 5px;
     list-style: none;
     background-color: #a3c4d3;
-    height: 40px;
-    font-size: 18spx;
-    font-style: italic;
-         
+    height: 30px;
+    font-size: large;
+    font-style: inherit;       
 
 }
 
@@ -31,20 +31,39 @@ body{
     text-decoration: none;
 }
 
-.textolargoinicio{
-    width: 400px;
-    font-size:x-large;
+.textolargoinici{
+    font-style: 1000px;
+    font-size:xx-large;
+
+}
+
+.textofin{
+    font-style: 1000px;
+    font-size:xx-large;
 
 }
 
 .logograndemdl{
     width: 350px;
+animation: logogrande 4s;
+position: relative;
+}
+.logograndemdl:hover{
 
+    width: 400px;
+    transition: all 2s;
+}
+
+.logofin{
+    width: 350px;
+animation: logogrande 4s;
+position: relative;
 }
 
 .alineartexto{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .especiaidades{
@@ -54,19 +73,18 @@ body{
 }
 
 .pie{
-    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: 150px;
     
 }
 
 .piecontacto{
-margin-top: 200px;
+margin-top: 300px;
 }
-
 
 .foterRedsocial{
 display: flex;
-justify-content: right;
+justify-content: flex-end ;
 }
 
 .logoredes{
@@ -77,4 +95,225 @@ justify-content: right;
 display: flex;
 justify-content: center;
 margin-top: 150px;
+
 }
+
+.logoos:hover{
+    
+    width: 1000px;
+    transition:  3s;
+
+}
+
+@media screen and (max-width: 768px ) {
+
+    .nevegacion{
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    .imagenobrassociales{
+        display: flex;
+        justify-content: center;
+                display: flex;
+                margin-left: 0px;
+            }
+            
+        }
+        .pie{
+            margin-bottom: 50px;
+            margin-left: 76px;
+            
+        }
+        .foterRedsocial{
+            display: flex;
+            justify-content: right;
+            margin-left: -40px;
+            justify-content: flex-start;
+            }
+
+            @media screen and (max-width: 425px ) {
+   
+                .logorriba{
+                width: 250px;
+            }
+            
+                .menuPrincipal{
+                    display: flex;
+                    margin-left: 300px;
+                    width: 140px;
+                }
+            
+                .alineartexto{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    flex-direction: column;
+                    margin-left: -18px;
+                    margin-top: 6px;
+                    justify-content: space-between;
+                    width: 100%;       
+                }
+            
+                .textofin{
+                    width: 350px;
+                    font-size: x-large;
+                    margin-left: 18px;         
+                }
+            
+                }
+            
+                .logograndemdl{
+                    width:150px;
+                    margin-left: 88px;       
+                
+                }
+            
+                .navegacion{
+                display: flex;
+                flex-direction: column;
+            
+            }
+                .menuPrincipal{
+                    display: flex;
+                    margin-left: 0px;
+                }
+                .pie{
+                    margin-bottom: 50px;
+                    margin-left: 76px;
+                    font-size: 10px;
+                    
+                }
+                .foterRedsocial{
+                    display: flex;
+                    justify-content: right;
+                    margin-left: -40px;
+                    justify-content: flex-start;
+                    }
+                }
+            @media screen and (max-width: 375px ) {
+   
+                .logorriba{
+                width: 250px;
+            }
+            
+                .menuPrincipal{
+                    display: flex;
+                    margin-left: 300px;
+                    width: 140px;
+                }
+            
+                .alineartexto{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    flex-direction: column;
+                    margin-left: -18px;
+                    margin-top: 6px;
+                    justify-content: space-between;
+                    width: 100%;       
+                }
+            
+                .textofin{
+                    width: 220px;
+                    font-size: 30px;
+                    margin-left: 18px;         
+                }
+            
+                .textofin{
+                    width: 200px;
+                    font-size: small;
+                    margin-left: 40px;
+                   
+                }
+            
+                .logograndemdl{
+                    width:150px;
+                    margin-left: 88px;       
+                
+                }
+            
+                .navegacion{
+                display: flex;
+                flex-direction: column;
+            
+            }
+                .menuPrincipal{
+                    display: flex;
+                    margin-left: 0px;
+                }
+                .pie{
+                    margin-bottom: 50px;
+                    margin-left: 76px;
+                    font-size: 10px;
+                    
+                }
+                .foterRedsocial{
+                    display: flex;
+                    justify-content: right;
+                    margin-left: -40px;
+                    justify-content: flex-start;
+                    }
+                }
+                    @media screen and (max-width: 320px ) {
+   
+    .logorriba{
+    width: 250px;
+}
+
+    .menuPrincipal{
+        display: flex;
+        margin-left: 300px;
+        width: 140px;
+    }
+
+    .alineartexto{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        margin-left: -18px;
+        margin-top: 6px;
+        justify-content: space-between;
+        width: 100%;       
+    }
+
+    .textolargoinici{
+        width: 500px;
+        font-size:30px;
+        margin-left: 15px;         
+    }
+
+    .textofin{
+        width: 200px;
+        font-size: small;
+        margin-left: 40px;
+       
+    }
+
+    .logograndemdl{
+        width:150px;
+        margin-left: 88px;       
+    
+    }
+
+    .navegacion{
+    display: flex;
+    flex-direction: column;
+
+}
+    .menuPrincipal{
+        display: flex;
+        margin-left: 0px;
+    }
+    
+}
+.pie{
+    margin-bottom: 50px;
+    margin-left: 76px;
+    
+}
+.foterRedsocial{
+    display: flex;
+    justify-content: right;
+    margin-left: -40px;
+    justify-content: flex-start;
+    }
